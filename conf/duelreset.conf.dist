@@ -37,3 +37,10 @@ DuelReset.Zones = "0"
 #        Default:     "12;14;809" - (Elwynn Forest;Durotar;Gates of Ironforge)
 
 DuelReset.Areas = "12;14;809"
+
+#    DuelReset.CooldownAge
+#        Description: Required time of a cooldown passed for it to be reset. Measured in seconds since the cooldown started.
+#        Default:     30  - (Enabled)
+#                     0  - (Disabled)
+
+DuelReset.CooldownAge = 30

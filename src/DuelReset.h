@@ -30,12 +30,14 @@ public:
     bool GetResetHealthEnabled() const;
     std::vector<uint32> GetZoneWhitelist() const;
     std::vector<uint32> GetAreaWhitelist() const;
+    uint32 GetCooldownAge() const;
 private:
     // Config values
     bool m_enableCooldowns;
     bool m_enableHealth;
     std::vector<uint32> m_zoneWhitelist;
     std::vector<uint32> m_areaWhitelist;
+    uint32 m_cooldownAge;
 
     // Player value maps
     typedef std::unordered_map<Player*, SpellCooldowns> PlayersCooldownMap;
